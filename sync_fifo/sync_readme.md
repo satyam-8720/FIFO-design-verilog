@@ -28,6 +28,14 @@ Both pointers are updated on the same clock edge.
 
 ---
 
+## Block Diagram
+
+The following block diagram shows the conceptual architecture of a
+synchronous FIFO, where both read and write operations are controlled
+by a single clock.
+
+![Synchronous FIFO Block Diagram](images/sync_fifo_block_diagram.png)
+
 ## Full Condition Detection
 
 FIFO is **full** when the write pointer catches up to the read pointer with wrap-around consideration.
