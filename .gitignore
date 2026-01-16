@@ -1,0 +1,35 @@
+# Simulation output
+*.vcd
+*.wlf
+*.fst
+*.log
+*.jou
+*.sim
+*.out
+
+# Vivado
+.vivado/
+*.str
+*.cache
+*.hw
+*.runs
+*.xpr
+
+# ModelSim / Questa
+work/
+modelsim.ini
+transcript
+
+# Cadence / Synopsys
+INCA_libs/
+csrc/
+*.fsdb
+*.trn
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
