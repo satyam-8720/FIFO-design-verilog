@@ -40,8 +40,7 @@ Typically implemented using:
 
 ## Empty Condition Detection
 
-FIFO is **empty** when:
-  write_pointer == read_pointer
+FIFO is **empty** when:   write_pointer == read_pointer
 
 ---
 
