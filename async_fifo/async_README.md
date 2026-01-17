@@ -29,6 +29,23 @@ The asynchronous FIFO design uses:
 
 ---
 
+## Block Diagram
+
+The following block diagram illustrates the high-level architecture of an
+asynchronous FIFO. Write and read operations are controlled by independent
+clock domains, requiring clock domain crossing (CDC) handling for safe data
+transfer.
+
+The design uses binary read/write pointers for memory addressing, Gray-coded
+pointers for cross-domain synchronization, and dual flip-flop synchronizers to
+mitigate metastability.
+
+![Asynchronous FIFO Block Diagram](images/async_fifo_block_diagram.png)
+
+*Note: This diagram is used for conceptual understanding of asynchronous FIFO
+operation. The RTL implementation in this repository follows the same logical
+structure.*
+
 
 ## Pointer Management
 
