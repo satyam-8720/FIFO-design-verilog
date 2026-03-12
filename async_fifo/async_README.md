@@ -76,9 +76,13 @@ FIFO is **empty** when the next read Gray pointer equals the synchronized write 
 
 ## FIFO DEPTH condition
 
-For asynchronous fifo ,the fifo depth should be multiple of 2 so that we can use gray code to avoid metastability.The starting and the last address of the async fifo will follow the following formula:
+For asynchronous fifo ,the fifo depth should be multiple of 2 so that we can use gray code to avoid metastability.
+
+The starting and the last address of the async fifo will follow the following formula:
 ![Formula for starting and end address](images/image.png)
+
 ---
+
 ## Clock Domain Crossing Strategy
 
 - Write pointer is synchronized into the read clock domain
